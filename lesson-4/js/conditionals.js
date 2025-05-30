@@ -1,7 +1,15 @@
 const output = document.querySelector('body p:nth-of-type(2)');
 		
 /* STEP 1a: A simple if/else statement */
-let homeWorkDone = null;
+let homeWorkDone = false;
+// can also use !== but if and else values are reversed
+if (homeWorkDone === true){
+	breakDuration = 60;
+} else {
+	breakDuration = 10;
+};
+
+output.textContent = `I get  a ${breakDuration} minute break.`;
 
 // STEP 1b: Any value that is not false, undefined, null, 0, NaN, or an empty string will evaluate to TRUE when tested using a conditional statement - try a few other values for var homeWorkDone and test
 
@@ -14,13 +22,30 @@ const weatherButton = document.querySelector('#weatherButton');
 const comments = document.querySelector('#commentary');
 
 /* STEP 2a: Add an event listener for the 'click' event on the 'Set Weather' button that invokes the setWeather() function below */
-
+weatherButton.addEventListener('click', setWeather);
 
 function setWeather() {
 	let choice = select.value;
 	let temperature = temp.value;
+	console.log(`The weather is ${choice} and the temperature is ${temperature}.`);
 	/* STEP 2b: Craft an IF/ELSEIF/ELSE that changes the src attribute of the icon element to the appropriate .svg file in the images folder */
-
+	if (choice === 'sunny'){
+		icon.src = 'images/sunny.svg';
+		// Color screen based on a temperature
+		if (temperature >= 15){
+			// When referencing CSS properties in JS, use camelCase instead of dash
+			page.style.backgroundColor = 'orange';
+		} else {
+			page.style.backgroundColor = 'lightblue';
+		};
+	} else if (choice === 'rainy') {
+		icon.src = 'images/rainy.svg';
+	}
+	else if (choice === 'windy') {
+		icon.src = 'images/windy.svg';
+	} else {
+		icon.src = 'images.cloud-off.svg';
+	};
 	/* STEP 3: Add a nested IF/ELSE statement inside the 'sunny' condition above that tests for temperature, and if it is equal to or greater than 15, turn the page background orange, otherwise turn it lightblue */
 
 	/* STEP 4: Logical operators - and, or, not (delete multi-line comment delimiters below) */
