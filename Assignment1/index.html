@@ -5,67 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment 1</title>
     <link rel="stylesheet" href="style.css">
-    <script src="assignment-one.js." defer></script>
+    <script src="js.js" defer></script>
 </head>
 <body>
     <h1>Assignment 1</h1>
     <h2>COMP1073 Client-Side JavaScript</h2>
 
-    <div class="story-builder">
-        <div class="group">
-            <div class="nouns">
-                <p>Mom</p>
-                <p>Dad</p>
-                <p>The dog</p>
-                <p>The turtle</p>
-                <p>The rabbit</p>
-            </div>
-            <button>One</button>
+    <div class="story-buttons">
+        <div class="button-container">
+            <button id="noun-btn">Noun</button>
+            <span id="noun-display">[Noun]</span>
         </div>
-    
-        <div class="group">
-            <div class="verbs">
-                <p>ate</p>
-                <p>ran</p>
-                <p>jumped</p>
-                <p>slept</p>
-                <p>played</p>
-            </div>
-            <button>Two</button>
+        <div class="button-container">
+            <button id="verb-btn">Verb</button>
+            <span id="verb-display">[verb]</span>
         </div>
-    
-        <div class="group">
-            <div class="adjectives">
-                <p>a happy</p>
-                <p>a strange</p>
-                <p>a funny</p>
-                <p>a scary</p>
-                <p>a sleepy</p>
-            </div>
-            <button>Three</button>
+        <div class="button-container">
+            <button id="adjective-btn">Adjective</button>
+            <span id="adjective-display">[adjective]</span>
         </div>
-    
-        <div class="group">
-            <div class="nouns-2">
-                <p>cat</p>
-                <p>mouse</p>
-                <p>fish</p>
-                <p>bird</p>
-                <p>hamster</p>
-            </div>
-            <button>Four</button>
+        <div class="button-container">
+            <button id="nounTwo">Second noun</button>
+            <span id="nounTwo-display">[nounTwo]</span>
         </div>
-    
-        <div class="group">
-            <div class="noun-location">
-                <p>in Paris</p>
-                <p>on Mars</p>
-                <p>in the mall</p>
-                <p>on Venus</p>
-                <p>in Toronto</p>
-            </div>
-            <button>Five</button>
+        <div class="button-container">
+            <button id="location-btn">Location</button>
+            <span id="location-display">[location]</span>
         </div>
     </div>
-    
+    <button id="random-story-btn" class="main-btn">Random Story</button>
+    <button id="reset-btn" class="main-btn">Reset</button>
+    <p id="story-output">Your story: </p>
 </body>
