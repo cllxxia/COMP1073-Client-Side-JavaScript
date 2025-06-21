@@ -1,6 +1,6 @@
 // Arrays that store the word options 
 const nouns = ['Mom', 'Dad', 'The dog', 'The turtle', 'The rabbit'];
-const verbs = ['ate', 'kissed', 'jumped on', 'smacked', 'played with'];
+const verbs = ['ate', 'hugged', 'jumped on', 'smacked', 'played with'];
 const adjectives = ['a happy', 'a strange', 'a funny', 'a scary', 'a sleepy'];
 const nounTwo = ['cat', 'mouse', 'fish', 'bird', 'hamster'];
 const locations = ['in Paris', 'on Mars', 'in the mall', 'on Venus', 'in Toronto'];
