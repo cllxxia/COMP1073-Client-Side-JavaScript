@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+    <link rel="stylesheet" href="style.css"> <!--Linking CSS-->
+    <script src="script.js" defer></script> <!--Linking JS-->
+</head>
+<body>
+<h1>Customize Your Smoothie</h1>
+<form id="smoothie-form">
+<div class="size">
+    <h3>Choose your size</h3>
+    <label>
+        <input type = "radio" name="size" value="small" checked>
+        Small (12oz)
+    </label>
+    <label>
+        <input type = "radio" name="size" value="medium">
+        Medium (16oz)
+    </label>
+    <label>
+        <input type = "radio" name="size" value="large">
+        Large (20oz)
+    </label>
+</div>
+<!--Smoothie base options-->
+<div class="liquid">
+    <h3>Choose your base</h3>
+    <label>
+        <input type="radio" name="liquid" value="milk" checked>
+        Milk
+    </label>
+    <label>
+        <input type="radio" name="liquid" value="juice">
+        Juice
+    </label>
+    <label>
+        <input type="radio" name="liquid" value="yogurt">
+        Yogurt
+    </label>
+    <label>
+        <input type="radio" name="liquid" value="water">
+        Water
+    </label>
+</div>
+<!--Fruit options-->
+<div class="fruits">
+    <h3>Choose your fruits</h3>
+    <label>
+        <input type="checkbox" name="fruit" value="banana">
+        Banana
+    </label>
+    <label>
+        <input type="checkbox" name="fruit" value="strawberry">
+        Strawberry
+    </label>
+    <label>
+        <input type="checkbox" name="fruit" value="blueberry">
+        Blueberry
+    </label>
+    <label>
+        <input type="checkbox" name="fruit" value="mango">
+        Mango
+    </label>
+    <label>
+        <input type="checkbox" name="fruit" value="pineapple">
+        Pineapple
+    </label>
+    <label>
+        <input type="checkbox" name="fruit" value="kiwi">
+        Kiwi
+    </label>
+    <label>
+        <input type="checkbox" name="fruit" value="apple">
+        Apple
+    </label>
+    <label>
+        <input type="checkbox" name="fruit" value="peach">
+        Peach
+    </label>
+</div>
+<!--Supplements options-->
+<div class="supplements">
+    <h3>Choose your supplements</h3>
+    <label>
+        <input type="checkbox" name="supplement" value="protein">
+        Protein Powder
+    </label>
+    <label>
+        <input type="checkbox" name="supplement" value="fiber">
+        Fiber
+    </label>
+    <label>
+        <input type="checkbox" name="supplement" value="vitamins">
+        Vitamins
+    </label>
+    <label>
+        <input type="checkbox" name="supplement" value="greens">
+        Greens Powder
+    </label>
+    <label>
+        <input type="checkbox" name="supplement" value="chia">
+        Chia Seeds
+    </label>
+    <label>
+        <input type="checkbox" name="supplement" value="flaxseed">
+        Flaxseed
+    </label>
+</div>
+<!--Customer Name field-->
+<div class="customer-info">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+</div>
+<button id="order-btn">Order Now</button>
+</form>
+<div id="order-summary"></div>
+</body>
+
+
+
+
+
