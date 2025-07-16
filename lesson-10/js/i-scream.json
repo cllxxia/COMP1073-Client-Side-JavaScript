@@ -1,6 +1,6 @@
 {
-  "companyName" : "I Scream Inc.",
-  "headOffice" : "South Pole, Antarctica",
+  "companyName" : "I-Scream Company Inc.",
+  "headOffice" : "North Pole",
   "established" : 2001,
   "active" : true,
   "topFlavors" : [
@@ -13,7 +13,7 @@
         "dark chocolate chips",
         "vanilla extract"
       ],
-      "image" : "chocolate-mint.svg"
+      "image" : ""
     },
     {
       "name" : "Perfect Peach Mango",
@@ -24,7 +24,7 @@
         "mango chunks",
         "clover honey"
       ],
-      "image" : "peach-mango.svg"
+      "image" : ""
     }
   ]
 }
