@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fffdf7;
+    color: #333;
+    padding: 40px 20px;
+    max-width: 700px;
+    margin: auto;
+  }
+  
+  /*Headings*/
+  h1 {
+    text-align: center;
+    color: #4CAF50;
+    margin-bottom: 30px;
+  }
+  
+  h3 {
+    margin-top: 20px;
+    color: #2e7d32;
+  }
+  
+  /*Form section layout*/
+  form {
+    background-color: #f9fff9;
+    border: 2px solid #c8e6c9;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.05);
+  }
+  
+  /*Group spacing*/
+  .size, .liquid, .fruits, .supplements, .customer-info {
+    margin-bottom: 20px;
+  }
+  
+  /*Label layout*/
+  label {
+    display: block;
+    margin-bottom: 8px;
+    cursor: pointer;
+  }
+  
+  /*Input spacing*/
+  input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 1rem;
+    margin-top: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /*Styling button*/
+  #order-btn {
+    display: block;
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 14px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    }
+  
+  #order-summary {
+    margin-top: 20px;
+    padding: 16px;
+    border: 2px solid #4CAF50;
+    background-color: #f9fff9;
+    color: #333;
+    font-family: 'Courier New', monospace;
+    font-size: 16px;
+    white-space: pre-wrap; 
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
