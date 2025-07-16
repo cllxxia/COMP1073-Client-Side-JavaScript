@@ -13,7 +13,7 @@
         "dark chocolate chips",
         "vanilla extract"
       ],
-      "image" : ""
+      "image" : "https://cllxxia.github.io/COMP1073-Client-Side-JavaScript/lesson-10/images/chocolate-mint.svg"
     },
     {
       "name" : "Perfect Peach Mango",
@@ -24,7 +24,7 @@
         "mango chunks",
         "clover honey"
       ],
-      "image" : ""
+      "image" : "https://cllxxia.github.io/COMP1073-Client-Side-JavaScript/lesson-10/images/peach-mango.svg"
     }
   ]
 }
