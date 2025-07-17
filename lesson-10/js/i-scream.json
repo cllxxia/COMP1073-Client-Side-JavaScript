@@ -25,6 +25,27 @@
         "clover honey"
       ],
       "image" : "https://cllxxia.github.io/COMP1073-Client-Side-JavaScript/lesson-10/images/peach-mango.svg"
+    } , {
+      "name" : "StrawBerry Sprinkle",
+      "calories" : 450,
+      "type" : "ice cream",
+      "ingredients" : [
+        "Strawberry puree",
+        "rainbow sprinkles",
+        "chocolate syrup",
+        "vanilla ice cream base"
+      ],
+      "image" : "https://cllxxia.github.io/COMP1073-Client-Side-JavaScript/lesson-10/images/strawberry-sprinkle.svg"
+    } , {
+      "name" : "Chocolate Chip Cookie Dough",
+      "calories" : 500,
+      "type" : "ice cream",
+      "ingredients" : [
+        "cookie dough pieces",
+        "chocolate chips",
+        "vanilla ice cream base"
+      ],
+      "image" : "https://cllxxia.github.io/COMP1073-Client-Side-JavaScript/lesson-10/images/ice-cream-xtra2.svg"
     }
   ]
 }
