@@ -7,7 +7,8 @@
         // Introducing JavaScript Object Notation (JSON): https://json.org/
         // STEP 4a: Store the URL of a JSON file in a variable */
         // STEP 4b: Store the URL of a JSON file in a variable
-        let url = 'https://cllxxia.github.io/COMP1073-Client-Side-JavaScript/lesson-10/js/i-scream.json'
+        let url = 'https://cllxxia.github.io/COMP1073-Client-Side-JavaScript/lesson-10/js/i-scream.json?v=2';
+
 
         // STEP 5: Use the new URL to create a new request object
         let request = new Request(url);
