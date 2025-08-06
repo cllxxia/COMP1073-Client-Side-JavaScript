@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  background-image: url(imgs/stars-assign3.jpg);
+  text-align: center;
+  padding: 20px;
+}
+
+.goldman-regular {
+  font-family: "Goldman", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+input, button {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.results {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.item {
+  background: #111;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  width: 200px;
+  text-align: center;
+}
+
+.item img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+.item-title {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+a {
+  color: #00f7ff;
+  text-decoration: none;
+}
